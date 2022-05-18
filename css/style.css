@@ -125,6 +125,7 @@ main img {
     text-align: center;
     line-height: 40px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .prz-fnl {
@@ -155,4 +156,20 @@ main img {
 
 .label.sosten {
     background-color: var(--green);
+}
+
+/* Hover */
+.hov {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+article:hover .hov {
+    display: inline-block;
+}
+
+.like:hover {
+    color: red;
 }
