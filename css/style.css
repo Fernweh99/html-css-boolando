@@ -1,3 +1,9 @@
+:root {
+    --orange:#FF6900;
+    --black:#1A1A1A;
+    --green:#008000;
+}
+
 /* Generics */
 * {
     padding: 0;
