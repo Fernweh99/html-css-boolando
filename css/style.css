@@ -21,6 +21,10 @@ section {
 }
 
 /* Generics Other tag */
+h2 {
+    font-size: 15px;
+}
+
 a,li {
     display: inline-block;
 }
@@ -78,6 +82,10 @@ a {
 }
 
 /* Header */
+.department a {
+    margin-right: 4px;
+}
+
 header {
     background-color: var(--orange);
     height: 60px;
@@ -87,6 +95,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
     box-shadow: 0 0 5px 0 black;
 }
 
@@ -97,6 +106,7 @@ header img {
 /* Main */
 main {
     font-size: 12px;
+    margin-bottom: 50px;
 }
 
 main img {
